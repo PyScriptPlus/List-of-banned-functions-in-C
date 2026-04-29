@@ -26,8 +26,8 @@ The table includes the SDL Banned functions, and adds additional functions commo
 *Note *:** `strlcpy()` and `strlcat()` are not provided in the Safe String Library, but are functions often found in the kernel library, and provide safe string operation, meaning that they do not overrun the buffer size, and they always NULL terminate the result, and the length of the composed string is also returned. These functions are normally considered safer replacements for `strcpy()` and `strcat()`. Again, `strlcpy()` and `strlcat()` are NOT included in the Safe String Library, but may be found in your version of Linux standard libraries.
 
 
-## --------------------------------------------------------------------------------------------------------
-## --------------------------------------------------------------------------------------------------------
+## --------------------------------------------------------------
+## --------------------------------------------------------------
 
 <div dir="rtl" align="right">
 
